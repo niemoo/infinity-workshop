@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'inter';
+}
+
+/* NAVBAR  */
+
+nav {
+  padding: 20px 100px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_title {
+  font-weight: bold;
+}
+
+.nav_title span {
+  color: orangered;
+}
+
+.nav_links {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  align-items: center;
+}
+
+.link a {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.link a:hover {
+  color: white;
+  background-color: orangered;
+}
+
+/* HERO SECTION */
+
+.hero_section {
+  display: flex;
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-left: 100px;
+  height: 90vh;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+
+.hero_main {
+  margin-top: 50px;
+  width: 50%;
+}
+
+.hero_title {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.hero_title span {
+  color: orangered;
+}
+
+.hero_p {
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button_container {
+  margin-top: 50px;
+  gap: 20px;
+  display: flex;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.btn_shop {
+  background-color: orangered;
+}
+
+.btn_contact {
+  background-color: black;
+}
+
+.hero_btn:hover {
+  background-color: white;
+}
+
+.btn_shop:hover {
+  background-color: white;
+  color: orangered;
+  border: 1px solid orangered;
+}
+
+.btn_contact:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.hero_img {
+  height: fit-content;
+  width: 40%;
+}
+
+/* SERVICE SECTION */
+.services_section {
+  margin-top: 70px;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.services_text {
+  text-align: center;
+}
+
+.services_title {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.card_groups {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.services_cards {
+  text-align: center;
+  width: 350px;
+  margin-top: 50px;
+  padding: 15px;
+  padding-top: 50px;
+  border-radius: 10px;
+  border: 1px solid #dbdbdb;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.services_cards:hover {
+  transform: scale(1.02);
+}
+
+.card_img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.card_title {
+  color: orangered;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.btn_read {
+  background-color: black;
+}
+
+.btn_read:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+/* IMAGE SECTION */
+
+.img_fruits_container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Membuat wadah sesuai dengan gambar */
+  margin-bottom: 75px;
+}
+
+.img_fruits {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.overlay_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Warna teks */
+  font-size: 120px; /* Ukuran teks */
+  font-weight: bold; /* Ketebalan teks */
+  text-align: center; /* Pusatkan teks */
+}
+
+/* FRUITS SECTION */
+
+.fruits_section {
+  padding: 0px 100px;
+}
+
+.fruits_text {
+  text-align: center;
+}
+
+.fruits_title {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.fruits_groups {
+  margin-top: 75px;
+}
+
+.fruits_cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.card_text {
+  width: 50%;
+}
+
+.card_text h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.card_text p {
+  margin-bottom: 50px;
+}
+
+.fruits_cards img {
+  width: 30%;
+}
+
+.btn_buy {
+  background-color: black;
+  color: white;
+}
+
+.btn_buy:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+  padding: 10px;
+  font-weight: 600;
+  color: white;
+  background-color: orangered;
+}
